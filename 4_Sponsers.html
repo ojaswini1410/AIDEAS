@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./4_Sponsers_global.css" />
+    <link rel="stylesheet" href="./4_Sponsers_index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Serif Pro:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sponsers">
+      <header class="a-i-d-a-s-logo">
+        <img
+          class="aideas-logo-1"
+          loading="lazy"
+          alt=""
+          src="./public/aideas-logo-1@2x.png"
+        />
+
+        <div class="a-i-d-a-s-logo-inner">
+          <div class="frame-parent">
+            <a href="1_Home_page.html">
+              <button class="home-btn" style="background-color: black; color: white; border: black; font-size: x-large; font-family:var(--font-crimson-text) ; ">
+                <div class="home-wrapper">
+                  <div class="home" id="homeText">Home</div>
+                </div>
+              </button>
+            </a>
+            <a href="2_Team.html">
+              <button class="team-btn" style="background-color: black; color: white; border: black; font-size: x-large; font-family:var(--font-crimson-text) ; ">
+                <div class="team-wrapper">
+                  <div class="team" id="teamText">Team</div>
+                </div>
+              </button>
+            </a>
+            <a href="3_Events_page.html">
+              <button class="events-btn" style="background-color: black; color: white; border: black; font-size: x-large; font-family:var(--font-crimson-text) ; ">
+                <div class="events-wrapper">
+                  <div class="events" id="eventsText">Events</div>
+                </div>
+              </button>
+            </a>
+            <a href="4_Sponsers.html">
+              <button class="sponsorbtn" style="background-color: black; color: white; border: black; font-size: x-large; font-family:var(--font-crimson-text) ; ">  
+            <div class="sponsors-wrapper">
+              <div class="sponsors">Sponsors</div>
+            </div>
+          </button>
+          </a>
+            <a href="5_Magazines.html">
+              <button class="magazines-btn" style="background-color: black; color: white; border: black; font-size: x-large; font-family:var(--font-crimson-text) ; ">
+                <div class="magazines-wrapper">
+                  <div class="magazines" id="magazinesText">Magazines</div>
+                </div>
+              </button>
+            </a>
+            
+            <a href="6_About_us.html">
+              <button class="about-us-btn" style="background-color: black; color: white; border: black; font-size: x-large; font-family:var(--font-crimson-text) ; ">
+              <div class="about-us-wrapper">
+                <div class="about-us" id="aboutUsText">About us</div>
+              </div>
+              </button>
+            </a>
+            <a href="7_Register_now.html">
+              <button class="contact-us">
+                <div class="contact-us-child"></div>
+                <div class="register-now">Register Now</div>
+              </button>
+            </a>
+          </div>
+        </div>
+      </header>
+      <section class="sponsors-logo-row-wrapper">
+        <div class="sponsors-logo-row">
+          <div class="tulsi-bhandar-logo">
+            <div class="sponsers-parent">
+              <h2 class="sponsers1">SPONSORS</h2>
+              <img
+                class="frame-child"
+                loading="lazy"
+                alt=""
+                src="./public/Line.png"
+              />
+            </div>
+          </div>
+          <div class="budhani-bros-name-parent">
+            <div class="budhani-bros-name">
+              <img
+                class="tulsi-bhandar-logo-1"
+                loading="lazy"
+                alt=""
+                src="./public/Tulsi bhandar logo.png"
+              />
+
+              <div class="budhani-bros-wrapper">
+                <div class="budhani-bros">Budhani Bros</div>
+              </div>
+            </div>
+            <div class="budhani-bros-logo-1-parent">
+              <img
+                class="budhani-bros-logo-1"
+                loading="lazy"
+                alt=""
+                src="./public/Budhani bros logo.png"
+              />
+
+              <div class="tulsi-steel-bhandar-wrapper">
+                <div class="tulsi-steel-bhandar">Tulsi Steel Bhandar</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          // Please sync "Homepage" to the project
+        });
+      }
+      
+      var teamText = document.getElementById("teamText");
+      if (teamText) {
+        teamText.addEventListener("click", function (e) {
+          // Please sync "Team" to the project
+        });
+      }
+      
+      var eventsText = document.getElementById("eventsText");
+      if (eventsText) {
+        eventsText.addEventListener("click", function (e) {
+          window.location.href = "./events.html";
+        });
+      }
+      
+      var magazinesText = document.getElementById("magazinesText");
+      if (magazinesText) {
+        magazinesText.addEventListener("click", function (e) {
+          // Please sync "Magazines" to the project
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          // Please sync "About Us" to the project
+        });
+      }
+      
+      var contactUs = document.getElementById("contactUs");
+      if (contactUs) {
+        contactUs.addEventListener("click", function (e) {
+          // Please sync "Registerations" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

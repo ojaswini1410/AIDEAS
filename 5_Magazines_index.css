@@ -1,0 +1,432 @@
+/* .a-i-d-a-s-logo-inner{
+  position: relative;
+  padding: 0;
+  margin: 0;
+} */
+
+
+.aideas-logo-1 {
+    height: 98.9px;
+    width: 83.4px;
+    position: relative;
+    object-fit: cover;
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+  }
+  .home {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .magazines1 {
+    width: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+  }
+  .team {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .magazines2 {
+    width: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+  }
+  .events {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .magazines3 {
+    width: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+  }
+  .sponsors {
+    padding-top: 10px;
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    
+  }
+  .magazines4 {
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+  }
+  .magazines6 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+  }
+  .magazines5 {
+    width: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+  }
+  .about-us {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .magazines7 {
+    width: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+  }
+  .contact-us-child {
+    height: 40px;
+    width: 153.8px;
+    position: relative;
+    border-radius: 8.28px;
+    background: linear-gradient(
+      180deg,
+      #01ffff 10.18%,
+      rgba(0, 163, 255, 0.55) 34.27%,
+      #000 51.25%,
+      rgba(0, 162, 255, 0.51) 63.51%,
+      #4ddad2 89.89%
+    );
+    border: 1.7px solid var(--color-white);
+    box-sizing: border-box;
+    display: none;
+  }
+  .register-now {
+    position: relative;
+    font-size: var(--font-size-xl-7);
+    font-weight: 600;
+    font-family: var(--font-crimson-text);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    text-shadow: 2.1px 2.1px 3.45px #969696;
+    min-width: 115px;
+    z-index: 1;
+  }
+  .contact-us {
+    cursor: pointer;
+    border: 1.7px solid var(--color-white);
+    padding: 6.799999999999272px 19.200000000000728px 6.200000000000728px
+      19.599999999998545px;
+    background-color: transparent;
+    border-radius: 8.28px;
+    background: linear-gradient(
+      180deg,
+      #01ffff 10.18%,
+      rgba(0, 163, 255, 0.55) 34.27%,
+      #000 51.25%,
+      rgba(0, 162, 255, 0.51) 63.51%,
+      #4ddad2 89.89%
+    );
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .contact-us:hover {
+    background-color: var(--color-gainsboro-300);
+    border: 1.7px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+  }
+  .contact-us,
+  .frame-wrapper,
+  .magazines-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .magazines-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-14xl);
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+  }
+  .frame-wrapper {
+    width: 955.8px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 29.399999999999636px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .aideas-logo-1-parent {
+    align-self: stretch;
+    height: 98.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+    font-family: var(--font-crimson-text);
+  }
+  .magazines8 {
+    margin: 0;
+    align-self: stretch;
+    height: 52px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame-child {
+    width: 266.8px;
+    height: 4px;
+    position: relative;
+  }
+  .magazines-group {
+    width: 274.8px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+  }
+  .screenshot-2024-01-13-131027-1 {
+    align-self: stretch;
+    height: 495px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .download-magazine {
+    position: relative;
+  }
+  .download-button-icon {
+    height: 29px;
+    width: 29.2px;
+    position: relative;
+  }
+  .download-magazine-parent,
+  .screenshot-2024-01-13-131027-1-parent {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .screenshot-2024-01-13-131027-1-parent {
+    height: 552px;
+    width: 352.9px;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    min-width: 352.9px;
+    max-width: 100%;
+  }
+  .technotales {
+    width: 278.8px;
+    position: relative;
+    font-size: 44.9px;
+    font-weight: 600;
+    font-family: var(--font-source-serif-pro);
+    color: var(--color-aqua-100);
+    text-align: left;
+    display: inline-block;
+  }
+  .blank-line,
+  .embark-on-a {
+    margin: 0;
+  }
+  .embark-on-a-container {
+    align-self: stretch;
+    position: relative;
+  }
+  .blank-line1,
+  .this-publication-is {
+    margin: 0;
+  }
+  .this-publication-is-container {
+    align-self: stretch;
+    height: 133px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .blank-line2,
+  .minds-unleashed-places {
+    margin: 0;
+  }
+  .minds-unleashed-places-container {
+    align-self: stretch;
+    height: 159px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame-group,
+  .technotales-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .technotales-parent {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 26px;
+    min-width: 431px;
+    text-align: justify;
+    font-size: var(--font-size-xl);
+    color: var(--color-gainsboro-200);
+    font-family: var(--font-crimson-text);
+  }
+  .frame-group {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    gap: 106px;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: red;
+  }
+  .frame-parent {
+    width: 1121.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 70px;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-aqua-100);
+    font-family: var(--font-source-serif-pro);
+  }
+  .magazines,
+  .magazines-inner {
+    display: flex;
+    align-items: flex-start;
+  }
+  .magazines-inner {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .magazines {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-black);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* padding: 0 var(--padding-6xl) 135.10000000000036px 28.800000000000185px; */
+    box-sizing: border-box;
+    gap: var(--gap-33xl);
+    letter-spacing: normal;
+  }
+  .a-i-d-a-s-logo-inner{
+    position: relative;
+    margin-top: -80px;
+    margin-left: 400px;
+  }
+  @media screen and (max-width: 1125px) {
+    .magazines-parent {
+      display: none;
+    }
+    .frame-wrapper {
+      width: 0;
+    }
+    .frame-group {
+      gap: 106px 53px;
+    }
+    .frame-parent {
+      gap: 35px 71px;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .magazines8 {
+      font-size: var(--font-size-19xl);
+    }
+    .screenshot-2024-01-13-131027-1-parent {
+      flex: 1;
+    }
+    .technotales {
+      font-size: var(--font-size-17xl);
+    }
+    .frame-group {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .magazines-parent {
+      gap: 33px 16px;
+    }
+    .technotales-parent {
+      min-width: 100%;
+    }
+    .frame-group {
+      gap: 106px 26px;
+    }
+    .frame-parent {
+      gap: 18px 71px;
+    }
+    .magazines {
+      gap: 26px 52px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .magazines8 {
+      font-size: var(--font-size-10xl);
+    }
+    .download-magazine {
+      font-size: var(--font-size-xl);
+    }
+    .screenshot-2024-01-13-131027-1-parent {
+      min-width: 100%;
+    }
+    .technotales {
+      font-size: var(--font-size-8xl);
+    }
+    .embark-on-a-container,
+    .minds-unleashed-places-container,
+    .this-publication-is-container {
+      font-size: var(--font-size-base);
+    }
+  }
+  
